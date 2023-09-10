@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - function
+ * main - main function
  *
- * return: always 0
+ * Return: always 0
  */
 int main(void)
 {
@@ -12,5 +12,5 @@ int main(void)
 	for (i = 0; i <= 9; i++)
 		printf("%d ", i);
 	printf("\n");
-	return 0;
+	return (0);
 }
