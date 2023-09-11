@@ -5,20 +5,25 @@
  * return: always 0
  */
 
-int main(void);
-}
-	char numbera = '0';
-	char letters = 'a';
+int main(void)
+{
+	char number = '0';
+	char letter = 'a';
 
-	while (numbers <= '9')
+	while (number <= '9')
+	{
 
-		putchar(numbers);
-		numbers++;
+		putchar(number);
+		number++;
+	}
 
-	while (letters <= 'f')
+	while (letter <= 'f')
 
-		putchar (letters);
-		letters++;
+	{
+
+		putchar(letter);
+		letter++;
+	}
 
 	putchar('\n');
 	return (0);
