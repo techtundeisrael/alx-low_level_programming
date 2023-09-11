@@ -21,6 +21,6 @@ int main(void)
 		printf("%d is zero", n);
 	else if (n < 0)
 		printf("%d is nagative", n);
-	printf("/n");
+	printf("\n");
 	return (0);
 }
