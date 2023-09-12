@@ -16,7 +16,7 @@ int main(void)
 		putchar(digit1);
 		putchar(digit2);
 
-		while (digit1 != '9' || digit2 != '9')
+		for (digit1 != '9' || digit2 != '9')
 		{
 
 			putchar(',');
