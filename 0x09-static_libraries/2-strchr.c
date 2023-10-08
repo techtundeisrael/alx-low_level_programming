@@ -1,17 +1,20 @@
 #include "main.h"
+#include <stddef.h>
+
 /**
  * _strchr - Entry point
- * @haystack: input
- * @needle: input
+ * @s: input
+ * @c: input
  * Return: Always 0 (Success)
  */
 char *_strchr(char *s, char c)
 {
-	int index = 0;
-	
-	while (str[index] != '\0') {
-	if (str[index] == ch) {
-	return index;
+	int i = 0;
+
+	for (; s[i] >= '\0'; i++)
+	{
+		if (s[i] == c)
+			return (&s[i]);
 	}
-	index++;
-    }
+	return (0);
+}
